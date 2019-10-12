@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/etnhapmaso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập mã số"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etnhaptieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập tiêu đề"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ettentacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tên tác giả"
+        android:inputType="textPersonName" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/btnselect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select " />
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update" />
+</LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" />
+
+</LinearLayout>
